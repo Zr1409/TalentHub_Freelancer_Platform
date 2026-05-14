@@ -1,0 +1,33 @@
+# =========================
+# Node (React frontend)
+# =========================
+node_modules/
+build/
+dist/
+.env
+
+# =========================
+# Java / Spring Boot backend
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.log
+*.iml
+/.idea/
+/.vscode/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets (không được push)
+# =========================
+TalentHub-UI-dev/src/credentials/credentials.json
+TalentHub-UI-dev/src/utils/languageExport.cjs
+TalentHub-master/TalentHub-master/backend/src/main/resources/application.properties
+
