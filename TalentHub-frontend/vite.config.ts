@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(),
     nodePolyfills({
       global: true, 
-    }),
+    }as any),
   ],
   resolve: {
     alias: {

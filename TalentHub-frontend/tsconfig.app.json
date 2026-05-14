@@ -22,14 +22,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    /* for ShadCN */
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "ignoreDeprecations": "6.0"
   },
+  
   "include": [
     "src",
     "scripts"
